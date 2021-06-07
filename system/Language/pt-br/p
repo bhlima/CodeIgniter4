@@ -1,0 +1,48 @@
+/**
+ * This file is part of the CodeIgniter 4 framework.
+ *
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+ * author translate pt-br: flavio lima <bhlima2@gmail.com>
+ */
+
+// CLI language settings
+return [
+    'altCommandPlural'    => 'Por acaso você quis dizer isto?',
+    'altCommandSingular'  => 'Você quis dizer isso?',
+    'commandNotFound'     => 'Comando "{0}" não existe.',
+    'generator'           => [
+        'cancelOperation'  => 'Operação foi cancelada.',
+        'className'        => [
+            'command'    => 'Nome da classe Command',
+            'config'     => 'Nome da classe config',
+            'controller' => 'Nome da classe controler',
+            'default'    => 'Nome da Classe',
+            'entity'     => 'Nome da classe Entity',
+            'filter'     => 'Nome da classe de filtro',
+            'migration'  => 'Nome da classe de migração',
+            'model'      => 'Nome da classe Model',
+            'seeder'     => 'Nome da classe Seeder',
+            'validation' => 'Nome da classe de validação',
+        ],
+        'commandType'      => 'Tipo do comando',
+        'databaseGroup'    => 'Grupo do banco de dados',
+        'fileCreate'       => 'Arquivo criado: {0}',
+        'fileError'        => 'Erro na criação do arquivo: {0}',
+        'fileExist'        => 'Arquivo existe: {0}',
+        'fileOverwrite'    => 'Arquivo sobrescrito: {0}',
+        'parentClass'      => 'Parent class',
+        'returnType'       => 'Tipo de retorno',
+        'tableName'        => 'Nome da tabela',
+        'usingCINamespace' => 'Alerta: Use namespace para o "CodeIgniter" encontrar arquivos no seu diretorio.'
+    ],
+    'helpArguments'       => 'Argumentos:',
+    'helpDescription'     => 'Descrição:',
+    'helpOptions'         => 'Opções:',
+    'helpUsage'           => 'Usado:',
+    'invalidColor'        => 'Invalido {0} color: {1}.',
+    'namespaceNotDefined' => 'Namespace "{0}" não esta definido.',
+];
